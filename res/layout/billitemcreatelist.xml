@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" android:layout_width="fill_parent"
+  android:orientation="horizontal" android:scrollbars="none" android:id="@+id/multiplelist">
+
+
+
+<TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:scrollbars="none" android:layout_width="fill_parent" android:layout_marginTop="8dip"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="9" android:textStyle="bold" android:typeface="serif" android:gravity="center" android:layout_marginTop="5dip" android:textSize="15dip" android:layout_marginLeft="17dip" android:textColor="#ffffff" android:id="@+id/txt_item_value"/><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:typeface="serif" android:gravity="center" android:layout_marginTop="5dip" android:textSize="15dip" android:textColor="#ffffff" android:ems="6" android:id="@+id/txt_itemname_values"/></TableRow>
+</LinearLayout>
+
+

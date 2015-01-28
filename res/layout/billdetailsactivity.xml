@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" android:background="#CC66FF">
+    <TableRow android:gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/TableRow02">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/RelativeLayout02" android:layout_gravity="center">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:text="Add" android:id="@+id/add"></Button>
+            <TextView android:layout_centerVertical="true" android:textSize="20dip" android:layout_width="wrap_content" android:textStyle="bold" android:typeface="serif" android:text="Billdetails" android:layout_centerInParent="true" android:layout_height="wrap_content" android:id="@+id/TextView02" android:textColor="#000000"></TextView>
+        </RelativeLayout>
+    </TableRow>
+
+<TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal" android:layout_marginTop="12dip">
+
+
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="center" android:gravity="center">
+<TextView android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_centerInParent="true" android:textStyle="bold" android:typeface="serif" android:textSize="20dip" android:id="@+id/address" android:layout_width="fill_parent" android:textColor="#000000"></TextView>
+</RelativeLayout>
+</TableRow>
+<TableRow android:layout_width="fill_parent" android:gravity="center_horizontal" android:layout_height="wrap_content" android:layout_marginTop="12dip" android:id="@+id/TableRow03">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/RelativeLayout03" android:layout_gravity="center">
+        <TextView android:layout_centerVertical="true" android:textSize="20dip" android:layout_width="fill_parent" android:textStyle="bold" android:typeface="serif" android:layout_centerInParent="true" android:layout_height="wrap_content" android:id="@+id/email" android:textColor="#000000"></TextView>
+    </RelativeLayout>
+</TableRow>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/linearclicklistener" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1">
+<ListView android:clickable="true" android:focusable="true" android:layout_width="fill_parent" android:scrollbars="none" android:id="@+id/listview" android:layout_height="wrap_content"/>
+<ListView android:clickable="true" android:scrollbars="none" android:id="@+id/list_item" android:layout_width="fill_parent" android:focusable="true" android:layout_height="wrap_content"></ListView>
+</LinearLayout>
+<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:orientation="horizontal" android:layout_marginTop="12dip">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout3" android:orientation="vertical" android:layout_marginTop="12dip">
+        <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/TableRow05" android:orientation="horizontal">
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/TextView05" android:textColor="#000000" android:textStyle="bold" android:textSize="20dip" android:typeface="serif" android:text="Vat"></TextView>
+            <TextView android:layout_height="wrap_content" android:textColor="#000000" android:textStyle="bold" android:textSize="20dip" android:typeface="serif" android:id="@+id/vat_value" android:layout_width="wrap_content"></TextView>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/TableRow04" android:orientation="horizontal">
+            <TextView android:textColor="#000000" android:textStyle="bold" android:textSize="20dip" android:typeface="serif" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Tax" android:id="@+id/value"></TextView>
+            <TextView android:textColor="#000000" android:textStyle="bold" android:textSize="20dip" android:typeface="serif" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tax_value"></TextView>
+        </TableRow>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1">
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
